@@ -1,2 +1,2 @@
 mkdir dist
-browserify index.js > dist\angular-query-string.js
+browserify index.js > dist\angular1-query-string.js
