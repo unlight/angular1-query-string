@@ -1,12 +1,12 @@
 {
   "name": "angular1-query-string",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An angular service that easily allows you to extract a key/value pair from the URL query string.",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/unlight/angular1-query-string.git"
+    "url": "https://github.com/unlight/angular1-query-string.git"
   },
   "author": "",
   "license": "ISC",
