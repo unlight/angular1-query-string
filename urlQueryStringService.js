@@ -2,7 +2,7 @@ var isInFrame = require("is-in-frame");
 var queryString = require("query-string");
 
 function urlQueryStringService($window) {
-	
+
 	var output = {};
 	var searchString;
 
