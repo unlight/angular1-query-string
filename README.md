@@ -1,18 +1,32 @@
-two methods
+# Angular Query String
+An angular service that easily allows you to extract a key/value pair from the URL query string.
 
-toString
-  from json object make a query string
+## Install
+Clone the repository and include directly into your project. You can also use bower and install as a dependency:
 
+Add the dependency in your Angular's project dependency arguments:
 
-toJSON
+```
+var app = angular.module('MyApp', [
+    'angular-query-string'
+]);
+```
 
-	from query string makes json object 
+## Usage
+Dependency Injection Name: `urlQueryString`
 
-	test=yyy&fff=111
+```js
+urlQueryString.<KEY>;
 
-	==>>>
+// http://cnn.com
+urlQueryString.foo; // `undefined`
 
-	{	
-		test: "yyy",
-		fff: 111
-	}
+// http://cnn.com?
+urlQueryString.foo; // `undefined`
+
+// http://cnn.com?foo
+urlQueryString.foo; // `null`
+
+// http://cnn.com?foo=bar
+urlQueryString.foo; // `'bar'`
+```

@@ -1,0 +1,23 @@
+{
+  "name": "angular1-query-string",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unlight/angular1-query-string.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unlight/angular1-query-string/issues"
+  },
+  "homepage": "https://github.com/unlight/angular1-query-string#readme",
+  "dependencies": {
+    "query-string": "^2.4.0"
+  },
+  "devDependencies": {
+    "is-in-frame": "^1.0.0"
+  }
+}
