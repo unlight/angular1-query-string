@@ -19,4 +19,9 @@ function urlQueryStringService($window) {
 	return output;
 }
 
-module.exports = urlQueryStringService;
+
+(function() {
+	angular
+		.module("angular-query-string", ["ng"])
+		.service("UrlQueryString", ["$window", urlQueryStringService]);
+})();

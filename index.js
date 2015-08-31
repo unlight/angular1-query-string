@@ -1,2 +1,2 @@
-require("./angular-query-string");
-module.exports = "angular-query-string";
+require("./src/angular1-query-string");
+module.exports = "angular1-query-string";

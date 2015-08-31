@@ -1,6 +1,6 @@
 {
   "name": "angular1-query-string",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "An angular service that easily allows you to extract a key/value pair from the URL query string.",
   "main": "index.js",
   "scripts": {},
